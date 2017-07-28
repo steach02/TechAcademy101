@@ -12,7 +12,6 @@ def sortList(list):
                 temp=list[count2]
                 list[count2]=list[count1]
                 list[count1]=temp
-            print count2
             count2 +=1
         count1+=1
         count2 =count1+1
